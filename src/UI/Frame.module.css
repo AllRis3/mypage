@@ -1,0 +1,14 @@
+.mainFrame {
+    margin-top: 150px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+  }
+  @media (max-width: 900px) {
+    .mainFrame {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+  }

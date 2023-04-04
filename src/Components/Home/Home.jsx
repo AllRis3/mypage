@@ -2,7 +2,7 @@ import React from "react";
 import HomeCss from "./Home.module.css";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Particle from "../Particle";
+import Particle from "../../UI/Particle";
 
 export default function Home() {
   return (

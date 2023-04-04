@@ -1,6 +1,8 @@
 import React from "react";
-import WorkCss from "./Work.module.css";
 import { motion } from "framer-motion";
+import Frame from "../../UI/Frame";
+import Content from "../../UI/Content";
+import Header from "../../UI/Header";
 
 export default function Work() {
   return (
@@ -10,15 +12,12 @@ export default function Work() {
         animate={{ y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className={WorkCss.maincontent}>
-          <div className={WorkCss.infocontainer}>
-            <h1 className={WorkCss.header}>
-              Work
-              <div className={WorkCss.line}></div>
-            </h1>
-            <h3>Coming soon...</h3>
-          </div>
-        </div>
+        <Frame>
+          <Content>
+            <Header>Work</Header>
+            <h3 className="aqua">Coming soon...</h3>
+          </Content>
+        </Frame>
       </motion.div>
     </React.Fragment>
   );

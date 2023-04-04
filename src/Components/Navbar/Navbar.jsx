@@ -14,9 +14,8 @@ export default function Navbar() {
     <div>
       <div className={NavbarCss.navbar}>
         <Link to="/">
-        <img src={LogoCyan} alt="logo" className={NavbarCss.logo} />
+        <img src={LogoCyan} alt="logo" className={NavbarCss.myLogo} />
         </Link>
-        {/* <div className={NavbarCss.myname}>Angelos Papadoulis</div> */}
         <div className={NavbarCss.index}>
           <div className={NavbarCss.indx}>
             <Link to="/"  className={(pathname === '/') ? 'aqua' : ''} >Home</Link>

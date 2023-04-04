@@ -1,0 +1,28 @@
+.mapContainer {
+  margin-top: 4rem;
+  opacity: 0.3;
+  transition-duration: 700ms;
+}
+.mapContainer:hover {
+  opacity: 0.6;
+  transition-duration: 700ms;
+}
+.map {
+  width: 35rem;
+  height: 28rem;
+  border-radius: 20px 100px;
+}
+
+@media (max-width: 1300px) {
+  .map {
+    width: 20rem;
+    height: 28rem;
+    transition-duration: 700ms;
+  }
+}
+
+@media (max-width: 850px) {
+  .mapContainer {
+    display: none;
+  }
+}

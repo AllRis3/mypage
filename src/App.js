@@ -4,7 +4,10 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import { useState, useEffect } from "react";
 import PacmanLoader from "react-spinners/PacmanLoader";
-import AnimatedRoutes from "./Components/AnimatedRoutes";
+import AnimatedRoutes from "./UI/AnimatedRoutes";
+
+
+
 export default function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {

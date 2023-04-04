@@ -1,0 +1,17 @@
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 550px) {
+  .technologies {
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    row-gap: 2rem;
+    justify-content: center;
+    width: 25rem;
+  }
+}

@@ -1,0 +1,29 @@
+.list {
+    display: grid;
+    text-align: center;
+    align-items: end;
+  }
+  .list:hover {
+    cursor: default;
+  }
+  .logos {
+    width: 6rem;
+    margin: 1rem;
+  }
+  .logos:hover {
+    rotate: 10deg;
+  }
+    
+  @media (max-width: 900px) {
+    .logos {
+      width: 6rem;
+      margin: 0 1rem;
+    }
+  }
+  @media (max-width: 550px) {
+  
+    .logos {
+      width: 5rem;
+    }
+  }
+  
