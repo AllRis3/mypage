@@ -1,5 +1,5 @@
-import React from 'react'
-import FrameCss from './Frame.module.css'
+import React from "react";
+import FrameCss from "./Frame.module.css";
 
 export default function Frame(props) {
   return (

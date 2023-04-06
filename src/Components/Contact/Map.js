@@ -1,5 +1,5 @@
 import React from "react";
-import MapCss from './Map.module.css';
+import MapCss from "./Map.module.css";
 
 function Map() {
   return (
