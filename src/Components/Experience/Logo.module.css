@@ -25,5 +25,9 @@
     .logos {
       width: 5rem;
     }
+    .list{
+      justify-content: center;
+    }
+
   }
   

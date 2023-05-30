@@ -9,9 +9,8 @@
 @media (max-width: 550px) {
   .technologies {
     display: grid;
-    grid-template-columns: 10rem 10rem;
+    grid-template-columns: 10rem 14rem;
     row-gap: 2rem;
-    justify-content: center;
     width: 25rem;
   }
 }
