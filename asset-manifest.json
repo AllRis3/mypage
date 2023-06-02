@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/mypage/static/css/main.a011dbf4.css",
-    "main.js": "/mypage/static/js/main.cf0a6a16.js",
+    "main.css": "/mypage/static/css/main.67d195e1.css",
+    "main.js": "/mypage/static/js/main.17f23fd8.js",
+    "static/media/Meals4You.png": "/mypage/static/media/Meals4You.5d274d4b5e5a01c42240.png",
     "static/media/JustMe.jpg": "/mypage/static/media/JustMe.01c9ba4045b49de6009f.jpg",
     "static/media/node.png": "/mypage/static/media/node.9009dd847aac23a4610c.png",
     "static/media/javascript.png": "/mypage/static/media/javascript.98702df554e7f66aef39.png",
@@ -12,11 +13,11 @@
     "static/media/css.png": "/mypage/static/media/css.fb72f2c46ba66e2134ce.png",
     "static/media/github.png": "/mypage/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/mypage/index.html",
-    "main.a011dbf4.css.map": "/mypage/static/css/main.a011dbf4.css.map",
-    "main.cf0a6a16.js.map": "/mypage/static/js/main.cf0a6a16.js.map"
+    "main.67d195e1.css.map": "/mypage/static/css/main.67d195e1.css.map",
+    "main.17f23fd8.js.map": "/mypage/static/js/main.17f23fd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.a011dbf4.css",
-    "static/js/main.cf0a6a16.js"
+    "static/css/main.67d195e1.css",
+    "static/js/main.17f23fd8.js"
   ]
 }
