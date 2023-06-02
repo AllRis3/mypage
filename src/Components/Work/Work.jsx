@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Frame from "../../UI/Frame";
 import Content from "../../UI/Content";
 import Header from "../../UI/Header";
+import ProjectFrame from "./ProjectFrame";
+import mealspic from "../pictures/Meals4You.png";
 
 export default function Work() {
   return (
@@ -15,7 +17,11 @@ export default function Work() {
         <Frame>
           <Content>
             <Header>Work</Header>
-            <h3 className="aqua">Coming soon...</h3>
+            <ProjectFrame
+              pic={mealspic}
+              link={"https://allris3.github.io/Meals4You/"}
+              text="A small order food app"
+            />
           </Content>
         </Frame>
       </motion.div>

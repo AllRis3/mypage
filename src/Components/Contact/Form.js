@@ -4,40 +4,6 @@ import { useState, useRef } from "react";
 import FormCss from "./Form.module.css";
 
 export default function Form(props) {
-  // const [formInputsValidity, setFormInputsValidity] = useState({
-  //   name: true,
-  //   email: true,
-  //   message: true,
-  // });
-  // const nameInputRef = useRef();
-  // const emailInputRef = useRef();
-  // const messageInputRef = useRef();
-  // const isEmpty = (value) => value.trim() === '';
-  
-  // const validateHandler = () => {
-    
-  //   const enteredName = nameInputRef.current.value;
-  //   console.log(enteredName)
-  //   const enteredEmail = emailInputRef.current.value;
-  //   const enteredMessage = messageInputRef.current.value;
-
-  //   const enteredNameIsValid = !isEmpty(enteredName);
-  //   const enteredEnailIsValid = !isEmpty(enteredName);
-  //   const enteredMessageIsValid = !isEmpty(enteredName);
-
-
-  //   const formIsValid= 
-  //   enteredNameIsValid &&
-  //   enteredEnailIsValid &&
-  //   enteredMessageIsValid;
-    
-  //   setFormInputsValidity({
-  //     name: enteredNameIsValid,
-  //     email: enteredEnailIsValid,
-  //     message: enteredMessageIsValid,
-  //   });
-  //   console.log(formIsValid)
-  // };
   
   const form = useRef();
 
@@ -74,7 +40,6 @@ export default function Form(props) {
         placeholder="Name"
         typeof="text"
         required={true}
-        // ref={nameInputRef}
       />
       <input
         type="text"
@@ -82,7 +47,6 @@ export default function Form(props) {
         placeholder="Email"
         typeof="email"
         required={true}
-        // ref={emailInputRef}
       />
       <input type="text" name="subject" placeholder="Subject" typeof="text" />
       <textarea
@@ -91,7 +55,6 @@ export default function Form(props) {
         placeholder="Message"
         typeof="text"
         required={true}
-        // ref={messageInputRef}
         rows="8"
         className={FormCss.message}
       />

@@ -1,0 +1,25 @@
+.container{
+    border: 1px solid #1bf8f8;
+    width: 30rem;
+    height: fit-content;
+    margin-top: 2rem;
+}
+img{
+    width: 30rem;
+}
+@media (max-width: 900px) {
+    .container {
+        width: 20rem;
+    }
+    img{
+        width: 20rem;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        width: 15rem;
+    }
+    img{
+        width: 15rem;
+    }
+}
